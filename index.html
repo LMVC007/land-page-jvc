@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luthier - Instrumentos Sob Medida</title>
+  
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js"></script>
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="w-full min-h-screen text-white bg-zinc-950">
+
+  <header class="relative w-full h-screen">
+    <img src="./assets/fundo-land-page.jpeg" class="absolute inset-0 w-full h-full object-cover opacity-40" loading="lazy" alt="Oficina de Luthieria">
+    <div class="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black"></div>
+    <div class="relative z-10 flex flex-col items-center justify-center text-center px-6 h-full">
+      <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold max-w-4xl leading-tight fade-in">Seu Instrumento. Sua Alma. Nossa Arte.</h1>
+      <p class="mt-6 text-lg md:text-xl max-w-2xl opacity-80 fade-in fade-in-d1">Instrumentos de cordas feitos sob medida, com madeiras nobres selecionadas e acabamento de alta lutheria.</p>
+      <a href="#contato" class="gold-gradient mt-10 px-10 py-4 rounded-sm text-black font-semibold text-lg cta-btn fade-in fade-in-d2">Encomende o Seu</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="w-full px-6 py-24 max-w-7xl mx-auto">
+      <h2 class="text-3xl md:text-5xl font-bold text-center mb-16">Nossas Criações</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        
+        <button type="button" class="card-hover rounded-lg overflow-hidden border border-white/10 cursor-pointer text-left bg-zinc-900" data-instrument="violao"> 
+          <img src="https://images.pexels.com/photos/10315092/pexels-photo-10315092.jpeg?auto=compress&cs=tinysrgb&w=800" class="w-full h-56 object-cover" loading="lazy" alt="Violão">
+          <div class="p-6">
+            <h3 class="text-xl font-bold mb-2">Violão</h3>
+            <p class="text-sm opacity-70">Acústicos e eletroacústicos com madeiras nobres.</p>
+          </div>
+        </button> 
+
+        <button type="button" class="card-hover rounded-lg overflow-hidden border border-white/10 cursor-pointer text-left bg-zinc-900" data-instrument="cavaquinho"> 
+          <img src="https://images.pexels.com/photos/13025804/pexels-photo-13025804.jpeg?auto=compress&cs=tinysrgb&w=800" class="w-full h-56 object-cover" loading="lazy" alt="Cavaquinho">
+          <div class="p-6">
+            <h3 class="text-xl font-bold mb-2">Cavaquinho</h3>
+            <p class="text-sm opacity-70">Sonoridade brilhante e projeção excepcional.</p>
+          </div>
+        </button> 
+
+        <button type="button" class="card-hover rounded-lg overflow-hidden border border-white/10 cursor-pointer text-left bg-zinc-900" data-instrument="viola"> 
+          <img src="https://images.pexels.com/photos/13364646/pexels-photo-13364646.jpeg?auto=compress&cs=tinysrgb&w=800" class="w-full h-56 object-cover" loading="lazy" alt="Viola Caipira">
+          <div class="p-6">
+            <h3 class="text-xl font-bold mb-2">Viola Caipira</h3>
+            <p class="text-sm opacity-70">Tradição e alma em cada detalhe do ponteio.</p>
+          </div>
+        </button> 
+
+        <button type="button" class="card-hover rounded-lg overflow-hidden border border-white/10 cursor-pointer text-left bg-zinc-900" data-instrument="violino"> 
+          <img src="https://images.pexels.com/photos/36881008/pexels-photo-36881008.jpeg?auto=compress&cs=tinysrgb&w=800" class="w-full h-56 object-cover" loading="lazy" alt="Violino">
+          <div class="p-6">
+            <h3 class="text-xl font-bold mb-2">Violino</h3>
+            <p class="text-sm opacity-70">Curvas elegantes e timbre refinado para orquestra.</p>
+          </div>
+        </button>
+
+      </div>
+    </section>
+
+    <section class="w-full px-6 py-24 border-t border-white/10">
+      <div class="max-w-7xl mx-auto">
+        <h2 class="text-3xl md:text-5xl font-bold text-center mb-6">Processo de Customização</h2>
+        <p class="text-center text-lg opacity-70 max-w-3xl mx-auto mb-16">Escolha cada detalhe do seu futuro instrumento.</p>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+          <div class="text-center">
+            <img src="https://images.pexels.com/photos/2209531/pexels-photo-2209531.jpeg?auto=compress&cs=tinysrgb&w=600" class="w-full h-48 object-cover rounded-lg mb-6" loading="lazy" alt="Madeiras">
+            <h3 class="text-xl font-bold mb-3">Madeiras Selecionadas</h3>
+            <p class="text-sm opacity-70">Jacarandá, Ébano, Abeto e outras madeiras com secagem natural.</p>
+          </div>
+          <div class="text-center">
+            <img src="https://images.pexels.com/photos/1751731/pexels-photo-1751731.jpeg?auto=compress&cs=tinysrgb&w=600" class="w-full h-48 object-cover rounded-lg mb-6" loading="lazy" alt="Acabamento">
+            <h3 class="text-xl font-bold mb-3">Acabamento Fino</h3>
+            <p class="text-sm opacity-70">Verniz gomalaca ou poliuretano fosco/brilhante feito à mão.</p>
+          </div>
+          <div class="text-center">
+            <img src="https://images.pexels.com/photos/6685428/pexels-photo-6685428.jpeg?auto=compress&cs=tinysrgb&w=600" class="w-full h-48 object-cover rounded-lg mb-6" loading="lazy" alt="Inlays">
+            <h3 class="text-xl font-bold mb-3">Inlays Personalizados</h3>
+            <p class="text-sm opacity-70">Marcações em madrepérola ou marchetaria exclusiva na escala.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="w-full px-6 py-24 border-t border-white/10">
+      <div class="max-w-7xl mx-auto">
+        <h2 class="text-3xl md:text-5xl font-bold text-center mb-16">Galeria da Oficina</h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <img src="https://images.pexels.com/photos/6407421/pexels-photo-6407421.jpeg?auto=compress&cs=tinysrgb&w=600" class="w-full h-64 object-cover rounded-lg border border-white/5 hover:opacity-80 transition cursor-pointer" loading="lazy" alt="Oficina detalhe 1"> 
+          <img src="https://images.pexels.com/photos/6407431/pexels-photo-6407431.jpeg?auto=compress&cs=tinysrgb&w=600" class="w-full h-64 object-cover rounded-lg border border-white/5 hover:opacity-80 transition cursor-pointer" loading="lazy" alt="Oficina detalhe 2"> 
+          <img src="https://images.pexels.com/photos/257904/pexels-photo-257904.jpeg?auto=compress&cs=tinysrgb&w=600" class="w-full h-64 object-cover rounded-lg border border-white/5 hover:opacity-80 transition cursor-pointer" loading="lazy" alt="Oficina detalhe 3"> 
+          <img src="https://images.pexels.com/photos/165537/pexels-photo-165537.jpeg?auto=compress&cs=tinysrgb&w=600" class="w-full h-64 object-cover rounded-lg border border-white/5 hover:opacity-80 transition cursor-pointer" loading="lazy" alt="Oficina detalhe 4">
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="w-full px-6 py-32 border-t border-white/10 text-center">
+      <h2 class="text-3xl md:text-5xl font-bold max-w-3xl mx-auto mb-6">Pronto para dar vida ao seu som?</h2>
+      <p class="text-lg opacity-70 max-w-2xl mx-auto mb-10">Entre em contato para discutir o seu projeto personalizado.</p>
+      <a href="mailto:contato@luthier.com" class="gold-gradient inline-block px-12 py-5 rounded-sm text-black font-semibold text-lg cta-btn">Falar com o Luthier</a>
+    </section>
+  </main>
+
+  <footer class="w-full px-6 py-8 border-t border-white/10 text-center">
+    <p class="text-sm opacity-50">&copy; 2026 Luthier Instrumentos. Todos os direitos reservados.</p>
+  </footer>
+
+  <div id="catalog-modal" class="hidden fixed inset-0 bg-black/90 z-50 overflow-y-auto">
+    <div class="min-h-screen px-6 py-12">
+      <div class="max-w-6xl mx-auto">
+        <div class="flex justify-between items-center mb-8">
+          <h2 id="catalog-title" class="text-3xl md:text-5xl font-bold text-white"></h2>
+          <button type="button" id="catalog-close" class="text-white hover:text-yellow-400 transition">
+            <i data-lucide="x" style="width: 32px; height: 32px;"></i>
+          </button>
+        </div>
+        <div id="catalog-content" class="grid grid-cols-1 md:grid-cols-2 gap-8"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
