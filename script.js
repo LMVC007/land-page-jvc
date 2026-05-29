@@ -5,28 +5,30 @@ const catalogData = {
     violao: {
         name: 'Violão',
         images: [
-            { src: 'https://images.pexels.com/photos/10315092/pexels-photo-10315092.jpeg?auto=compress&cs=tinysrgb&w=800', alt: 'Violão' },
-            { src: 'https://images.pexels.com/photos/34156008/pexels-photo-34156008.jpeg?auto=compress&cs=tinysrgb&w=800', alt: 'Detalhe Violão' }
+            { src: './assets/violao-1.png', alt: 'Violão' },
+            { src: './assets/violao-2.png', alt: 'Detalhe Violão' },
+            { src: './assets/violao-3.png', alt: 'Violão' }
         ]
     },
     cavaquinho: {
         name: 'Cavaquinho',
         images: [
-            { src: './assets/dinamico-1.jpeg', alt: 'Minha Nova Foto do Cavaquinho' },
-            { src: './assets/dinamico-3.jpeg', alt: 'Minha Nova Foto do Cavaquinho' },
-            { src: './assets/dinamico-4.jpeg', alt: 'Minha Nova Foto do Cavaquinho' },
-            { src: './assets/dinamico-2.jpeg', alt: 'Minha Nova Foto do Cavaquinho' },
             { src: './assets/teste.jpeg', alt: 'Minha Nova Foto do Cavaquinho' },
             { src: './assets/cabeca.jpeg', alt: 'Minha Nova Foto do Cavaquinho' },
             { src: './assets/diversos-1.jpeg', alt: 'Minha Nova Foto do Cavaquinho' },
-            { src: './assets/diversos-2.jpeg', alt: 'Minha Nova Foto do Cavaquinho' }
+            { src: './assets/diversos-2.jpeg', alt: 'Minha Nova Foto do Cavaquinho' },
+            { src: './assets/dinamico-1.jpeg', alt: 'Minha Nova Foto do Cavaquinho' },
+            { src: './assets/dinamico-3.jpeg', alt: 'Minha Nova Foto do Cavaquinho' },
+            { src: './assets/dinamico-4.jpeg', alt: 'Minha Nova Foto do Cavaquinho' },
+            { src: './assets/dinamico-2.jpeg', alt: 'Minha Nova Foto do Cavaquinho' }
 
         ]
     },
     viola: {
         name: 'Viola',
         images: [
-            { src: 'https://images.pexels.com/photos/13364646/pexels-photo-13364646.jpeg?auto=compress&cs=tinysrgb&w=800', alt: 'Viola' },
+            { src: './assets/viola-1.png', alt: 'Viola' },
+            { src: './assets/viola-2.png', alt: 'Viola' },
             { src: 'https://images.pexels.com/photos/10428450/pexels-photo-10428450.jpeg?auto=compress&cs=tinysrgb&w=800', alt: 'Detalhe Viola' }
         ]
     },
